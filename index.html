@@ -1,390 +1,422 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>Pavel Petkov CV - rocnogu.com</title>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Pavel Petkov CV - rocnogu.com">
-    <meta name="author" content="rocnogu">
-    <meta name="keywords" content="Pavel, Petkov, rocnogu">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Pavel Petkov CV - rocnogu.com" />
+    <meta name="author" content="rocnogu" />
+    <meta name="keywords" content="Pavel, Petkov, rocnogu" />
 
     <!-- font-awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <!-- SEO Structured Data script -->
     <script type="application/ld+json">
-    {
-    "@context": "https://rocnogu.com/",
-    "@type": "Resume",
-    "name": "Pavel Petkov CV - rocnogu.com"
-    }
+      {
+        "@context": "https://rocnogu.com/",
+        "@type": "Resume",
+        "name": "Pavel Petkov CV - rocnogu.com"
+      }
     </script>
-
-
 
     <!-- style -->
     <style>
-        .w3-content,
-        .w3-auto {
-            margin-left: auto;
-            margin-right: auto;
-        }
+      .w3-content,
+      .w3-auto {
+        margin-left: auto;
+        margin-right: auto;
+      }
 
-        .w3-margin-top {
-            margin-top: 16px !important;
-        }
+      .w3-margin-top {
+        margin-top: 16px !important;
+      }
 
-        .w3-margin-bottom {
-            margin-bottom: 16px !important;
-        }
+      .w3-margin-bottom {
+        margin-bottom: 16px !important;
+      }
 
-        .w3-row-padding,
-        .w3-row-padding>.w3-half,
-        .w3-row-padding>.w3-third,
-        .w3-row-padding>.w3-twothird,
-        .w3-row-padding>.w3-threequarter,
-        .w3-row-padding>.w3-quarter,
-        .w3-row-padding>.w3-col {
-            padding: 0 8px;
-        }
+      .w3-row-padding,
+      .w3-row-padding > .w3-half,
+      .w3-row-padding > .w3-third,
+      .w3-row-padding > .w3-twothird,
+      .w3-row-padding > .w3-threequarter,
+      .w3-row-padding > .w3-quarter,
+      .w3-row-padding > .w3-col {
+        padding: 0 8px;
+      }
 
+      .w3-third {
+        max-width: 31%;
+        float: left;
+      }
+
+      .w3-twothird {
+        max-width: 64%;
+        float: left;
+      }
+
+      .w3-row-padding:after,
+      .w3-row-padding:before {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .w3-card {
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+          0 2px 10px 0 rgba(0, 0, 0, 0.12);
+      }
+
+      .w3-round-xlarge {
+        border-radius: 16px;
+      }
+
+      .w3-center {
+        text-align: center !important;
+      }
+
+      .w3-teal {
+        color: #fff !important;
+        background-color: #009688 !important;
+      }
+
+      .w3-text-white {
+        color: #fff !important;
+      }
+
+      .w3-container {
+        padding: 0.01em 16px;
+        background-color: rgb(44, 44, 44);
+      }
+
+      @media (max-width: 999px) {
         .w3-third {
-            max-width: 31%;
-            float: left;
+          max-width: 99%;
+          float: none;
         }
 
         .w3-twothird {
-            max-width: 64%;
-            float: left;
+          max-width: 99%;
+          float: none;
         }
+      }
 
-        .w3-row-padding:after,
-        .w3-row-padding:before {
-            content: "";
-            display: table;
-            clear: both;
-        }
+      html,
+      body,
+      p {
+        font-family: "Helvetica", "Times New Roman", Arial, sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        color: rgb(225, 226, 158);
+        word-wrap: break-word;
+      }
 
-        .w3-card {
-            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-        }
+      p {
+        font-size: 26px;
+      }
 
-        .w3-round-xlarge {
-            border-radius: 16px;
-        }
+      h1 {
+        font-size: 56px;
+        color: #009688;
+      }
 
-        .w3-center {
-            text-align: center !important;
-        }
+      a,
+      i {
+        text-decoration: none;
+        color: wheat;
+        font-size: 22px;
+      }
+      h2 {
+        color: #009688;
+        margin-left: 16px;
+        font-size: 36px;
+      }
 
-        .w3-teal {
-            color: #fff !important;
-            background-color: #009688 !important;
-        }
+      h3 {
+        font-size: 36px;
+      }
 
-        .w3-text-white {
-            color: #fff !important;
-        }
+      h5 {
+        color: rgb(225, 226, 158);
+        font-size: 26px;
+      }
 
-        .w3-container {
-            padding: 0.01em 16px;
-            background-color: rgb(44, 44, 44);
-        }
-
-
-
-        @media (max-width: 999px) {
-            .w3-third {
-                max-width: 99%;
-                float: none;
-            }
-
-            .w3-twothird {
-                max-width: 99%;
-                float: none;
-            }
-        }
-
-
-
-        html,
-        body,
-        p {
-            font-family: 'Helvetica', "Times New Roman", Arial, sans-serif;
-            font-weight: normal;
-            font-style: normal;
-            color: rgb(225, 226, 158);
-            word-wrap: break-word;
-        }
-
-        p {
-            font-size: 26px;
-        }
-
-        h1{
-            font-size: 56px;
-            color: #009688;
-
-
-        }
-
-        a, i {
-            text-decoration: none;
-            color: wheat;
-            font-size: 22px;
-        }
-        h2
- {
-            color: #009688;
-            margin-left: 16px;
-            font-size: 36px;
-        }
-
-        h3 {
-            font-size: 36px;
-        }
-
-        h5 {
-            color: rgb(225, 226, 158);
-            font-size: 26px;
-        }
-
-        img {
-            width: 100%;
-        }
+      img {
+        width: 100%;
+      }
     </style>
-</head>
+  </head>
 
-<body style=" background-color: black;">
-
+  <body style="background-color: black">
     <!-- Page Container -->
     <div class="w3-content w3-margin-top">
+      <!-- The Grid -->
+      <div
+        class="w3-row-padding"
+        style="background-color: #009688; padding-top: 16px"
+      >
+        <!-- Left Column -->
+        <div class="w3-third">
+          <!-- Left Column second part -->
+          <div class="w3-container" style="text-align: center">
+            <hr />
 
-        <!-- The Grid -->
-        <div class="w3-row-padding" style="background-color: #009688; padding-top: 16px;">
+            <!-- Heading -->
+            <div class="w3-container w3-card w3-margin-bottom">
+              <h1>Pavel Petkov</h1>
+              <h3>Junior Full Stack MERN Web Developer</h3>
+            </div>
+            <hr />
 
-            <!-- Left Column -->
-            <div class="w3-third">
+            <!-- Languages -->
+            <div class="w3-container w3-card w3-margin-bottom">
+              <h2>Language</h2>
+              <p>English</p>
+              <div
+                class="w3-center w3-round-xlarge w3-teal"
+                style="width: 100%"
+              >
+                <p>Advanced</p>
+              </div>
+            </div>
+            <hr />
 
+            <!-- Location -->
+            <div class="w3-container w3-card w3-margin-bottom">
+              <h2>Location</h2>
+              <p>Hamburg, Germany</p>
+              <p>Open to relocation, Freelancing, Work with own company.</p>
+            </div>
+            <hr />
+            <br />
 
-                <!-- Left Column second part -->
-                <div class="w3-container" style="text-align:center">
-
-                    <hr>
-
-                    <!-- Heading -->
-                    <div class="w3-container w3-card w3-margin-bottom">
-                        <h1>Pavel Petkov</h1>
-                        <h3>Junior Full Stack MERN
-                            Web Developer
-                        </h3>
-                    </div>
-                    <hr>
-
-                    <!-- Languages -->
-                    <div class="w3-container w3-card w3-margin-bottom">
-                        <h2>Language</h2>
-                        <p>English</p>
-                        <div class=" w3-center w3-round-xlarge w3-teal" style="width:100%">
-                            <p>Advanced</p>
-                        </div>
-                    </div>
-                    <hr>
-
-                    <!-- Location -->
-                    <div class="w3-container w3-card w3-margin-bottom">
-                        <h2>Location</h2>
-                        <p>Hamburg, Germany </p>
-                        <p>Open to relocation, Freelancing, Work with own company.</p>
-                    </div>
-                    <hr>
-                    <br>
-
-                    <!-- Contact -->
-                    <div class="w3-container w3-card w3-margin-bottom">
-                        <h2>Contact</h2>
-                        <p>
-                            pavelpetkov253@gmail.com
-                        </p>
-                        <p>004915776419361
-                        </p>
-                        </p>
-                    </div>
-
-                    <hr>
-                    <br>
-
-                    <!-- Web -->
-                    <div class="w3-container w3-card w3-margin-bottom">
-                        <h2>Web</h2>
-                        <a href="https://github.com/rocnogu" target="_blank"><i class="fa fa-github">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </i>GitHub</a>
-                <br>
-                <br>
-                <a href="https://www.linkedin.com/in/rocnogu/" target="_blank"> <i class="fa fa-linkedin"> &nbsp;&nbsp;&nbsp;</i>  LinkedIn</a>
-                        <a href="https://rocnogu.com" target="_blank"> <p></p> CV: rocnogu.com </a>
-                <br>
-            <br>
-            <br>
-                    </div>
-                    <hr>
-                </div>
-                <br>
+            <!-- Contact -->
+            <div class="w3-container w3-card w3-margin-bottom">
+              <h2>Contact</h2>
+              <p>pavelpetkov253@gmail.com</p>
+              <p>+4915776419361</p>
+              <p>
+                <a href="https://www.linkedin.com/in/rocnogu/" target="_blank">
+                  <i class="fa fa-linkedin"> &nbsp;&nbsp;&nbsp;</i> LinkedIn</a
+                >
+              </p>
+              <br />
             </div>
 
-            <!-- Right Column -->
-            <div class="w3-twothird">
+            <hr />
 
-                <div class="w3-container w3-card w3-margin-bottom">
+            <!-- GitHub -->
+            <div class="w3-container w3-card w3-margin-bottom">
+              <br />
+              <br />
+              <a href="https://github.com/rocnogu" target="_blank"
+                ><i class="fa fa-github"
+                  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </i
+                >GitHub</a
+              >
+              <br />
+              <br />
+              <br />
+            </div>
+            <hr />
+          </div>
+          <br />
+        </div>
 
-                    <hr>
+        <!-- Right Column -->
+        <div class="w3-twothird">
+          <div class="w3-container w3-card w3-margin-bottom">
+            <hr />
 
-                    <!--  About -->
-                    <div class="w3-container w3-card w3-margin-bottom">
-                        <h2>About</h2>
-                        <p>
-                            Beginner Junior Full Stack MERN Web Developer, currently working with Git, Heroku and Netlify.
-                            <br>
-                            <br>
-                            Self taught Front End. Minimalist, Organized, professional, extremely honest, actually intelligent, open-minded,
-                            curious and flexible.
-                            <br>
-                            <br>
-                            Experienced with hardware, software, computer repair, maintenance and Rollout.
-                            <br>
-                            <br>
-                            Years of experience as an organizer working in groups and organizing events.
-                            <br>
-                            <br>
-                             Good at Visual-Spatial.
-                            <br>
-                            <br>
-                        </p>
+            <!--  About -->
+            <div class="w3-container w3-card w3-margin-bottom">
+              <h2>About</h2>
+              <p>
+                Beginner Junior Full Stack MERN Web Developer, currently working
+                with Git, Heroku and Netlify.
+                <br />
+                <br />
+                Self taught Front End. Minimalist, Organized, professional,
+                extremely honest, actually intelligent, open-minded, curious and
+                flexible.
+                <br />
+                <br />
+                Rollout professional: hardware, software, computer repair and
+                maintenance.
+                <br />
+                <br />
+                Experienced as organizer, team leader, working in groups and
+                organizing events.
+                <br />
+                <br />
+              </p>
+            </div>
 
-                    </div>
+            <hr />
 
-                    <hr>
+            <!-- Education -->
+            <div class="w3-container w3-card w3-margin-bottom">
+              <h2>Related Education</h2>
+              <h3>2021 - WBS Coding school</h3>
+              <p>
+                Full Stack Web Developer / Practice orientated collaborative
+                Bootcamp
+              </p>
+            </div>
+            <hr />
 
-                    <!-- Education -->
-                    <div class="w3-container w3-card w3-margin-bottom">
-                        <h2>Related Education</h2>
-                        <h3>2021 - WBS Coding school</h3>
-                        <p>Full Stack Web Developer  / Practice orientated collaborative Bootcamp</p>
-                    </div>
-                    <hr>
-
-                    <!-- Skills -->
-                    <div class="w3-container w3-card w3-margin-bottom">
-                        <h2>Related Skills</h2>
-                        <p> Mostly used: MERN stack </p>
-                            <p>
-                                React 17, JS ES6, HTML5, CSS3, Node.js 16.13.0, npm 8.1.0, Express 4.17.1, MongoDB, Bootstrap 5, REST API,
-                                AWS S3, GraphQL, VS Code, GitHub, Git, Netlify, Heroku, Googling, MySQL, SERN, Strapi, Trello.
-                        </p>
-                        <div class=" w3-round-xlarge">
-                            <div class=" w3-center w3-round-xlarge w3-teal" style="width:60%">
-                                <p>Junior</p>
-                            </div>
-                        </div>
-                        *
-                        <p>Rollout: Hardware, Windows, Drivers, Apps</p>
-                        <div class=" w3-round-xlarge">
-                            <div class=" w3-center w3-round-xlarge w3-teal" style="width:90%">
-                                <p>Professional</p>
-                            </div>
+            <!-- Skills -->
+            <div class="w3-container w3-card w3-margin-bottom">
+              <h2>Related Skills</h2>
+              <p>Mostly used: MERN stack</p>
+              <p>
+                React 17, JS ES6, HTML5, CSS3, Node.js 16.13.0, npm 8.1.0,
+                Express 4.17.1, MongoDB, Bootstrap 5, REST API, AWS S3, GraphQL,
+                VS Code, GitHub, Git, Netlify, Heroku, Googling, MySQL, SERN,
+                Strapi, Trello.
+              </p>
+              <div class="w3-round-xlarge">
+                <div
+                  class="w3-center w3-round-xlarge w3-teal"
+                  style="width: 60%"
+                >
+                  <p>Junior</p>
                 </div>
+              </div>
+              <br />
+              <p>Rollout: Hardware, Windows, Drivers, Apps</p>
+              <div class="w3-round-xlarge">
+                <div
+                  class="w3-center w3-round-xlarge w3-teal"
+                  style="width: 90%"
+                >
+                  <p>Professional</p>
                 </div>
-                    <hr>
+              </div>
+            </div>
+            <hr />
             <!-- End Right Column -->
-
-                </div>
-
-            </div>
-            <!-- End Grid -->
-
-
-
+          </div>
         </div>
+        <!-- End Grid -->
+      </div>
 
-
-        <div class="w3-container" style="text-align:center; ">
-
-            <h2>Samples</h2>
-
-            <hr>
-            <br>
-            <div class="w3-container w3-card w3-margin-bottom" >
-                <a href="https://react-cv-blog.netlify.app/" target="_blank">    
-                     <p>Blog : MERN + Netlify + Heroku</p>
-                     <p>This is also the exact span of my knowledge</p>
-                    <img
-                        src="https://www.netlify.com/img/global/meta-image.jpg" alt=""
-                        style="width:112px;height:62px;  "></a>
-                <br>
-                <br>
-                <a href="https://github.com/rocnogu/react-CV-blog" target="_blank"><i class="fa fa-github"> Git
-                        React Code</i></a>
-                <br>
-                <a href="https://github.com/rocnogu/express-CV-blog" target="_blank"><i class="fa fa-github"> Git
-                        Server Code</i></a>
-            <br>
-            <br>
+      <!-- Samples -->
+      <div class="w3-container" style="text-align: center">
+        <h2>Samples</h2>
+        <hr />
+        <br />
+        <div class="w3-container w3-card w3-margin-bottom">
+          <a href="https://react-cv-blog.netlify.app/" target="_blank">
+            <p>Blog : MERN + Netlify + Heroku</p>
+            <p>This is also the exact span of my knowledge</p>
+            <img
+              src="https://www.netlify.com/img/global/meta-image.jpg"
+              alt=""
+              style="width: 112px; height: 62px"
+          /></a>
+          <br />
+          <br />
+          <a href="https://github.com/rocnogu/react-CV-blog" target="_blank"
+            ><i class="fa fa-github"> Git Blog React Code</i></a
+          >
+          <br />
+          <a href="https://github.com/rocnogu/express-CV-blog" target="_blank"
+            ><i class="fa fa-github"> Git Blog Server Code</i></a
+          >
+          <br />
+          <br />
         </div>
-
-
-            <hr>
-            <br>
-            <div class="w3-container w3-card w3-margin-bottom" >
-                <a href="https://mern-todo-react.netlify.app/" target="_blank">     <p>To Do List : MERN + Netlify + Heroku</p><img
-                        src="https://www.netlify.com/img/global/meta-image.jpg" alt=""
-                        style="width:112px;height:62px;  "></a>
-                <br>
-                <br>
-                <a href="https://github.com/rocnogu/mern-todo-react" target="_blank"><i class="fa fa-github"> Git
-                        React Code</i></a>
-                <br>
-                <a href="https://github.com/rocnogu/mern-todo-server" target="_blank"><i class="fa fa-github"> Git
-                        Server Code</i></a>
-            <br>
-            <br>
+        <hr />
+        <br />
+        <div class="w3-container w3-card w3-margin-bottom">
+          <a href="https://mern-todo-react.netlify.app/" target="_blank">
+            <p>To Do List : MERN + Netlify + Heroku</p>
+            <img
+              src="https://www.netlify.com/img/global/meta-image.jpg"
+              alt=""
+              style="width: 112px; height: 62px"
+          /></a>
+          <br />
+          <br />
+          <a href="https://github.com/rocnogu/mern-todo-react" target="_blank"
+            ><i class="fa fa-github"> Git To Do List React Code</i></a
+          >
+          <br />
+          <a href="https://github.com/rocnogu/mern-todo-server" target="_blank"
+            ><i class="fa fa-github"> Git To Do List Server Code</i></a
+          >
+          <br />
+          <br />
         </div>
-            <hr>
-            <br>
-
-            <div class="w3-container w3-card w3-margin-bottom">
-                
-                <a href="https://rocnogu.com/CSS-sample-2019/" target="_blank"><p> CSS sample : GitPages</p><img
-                        src="https://res.cloudinary.com/practicaldev/image/fetch/s--AlWXrRzS--/c_imagga_scale,f_auto,fl_progressive,h_1080,q_auto,w_1080/https://dev-to-uploads.s3.amazonaws.com/i/3uy5od7tw2jf4fh7ldlv.jpeg"
-                        alt="" style="width:99px;height:99px; "></a>
-                <br>
-                <br>
-                <a href="https://github.com/rocnogu/CSS-sample-2019" target="_blank"><i class="fa fa-github"> Git CSS
-                        sample Code</i></a>
-            <br>
-            <br>
+        <hr />
+        <br />
+        <div class="w3-container w3-card w3-margin-bottom">
+          <a href="https://rocnogu.com/CSS-sample-2019/" target="_blank"
+            ><p>CSS sample : GitPages</p>
+            <img
+              src="https://res.cloudinary.com/practicaldev/image/fetch/s--AlWXrRzS--/c_imagga_scale,f_auto,fl_progressive,h_1080,q_auto,w_1080/https://dev-to-uploads.s3.amazonaws.com/i/3uy5od7tw2jf4fh7ldlv.jpeg"
+              alt=""
+              style="width: 99px; height: 99px"
+          /></a>
+          <br />
+          <br />
+          <a href="https://github.com/rocnogu/CSS-sample-2019" target="_blank"
+            ><i class="fa fa-github"> Git CSS sample Code</i></a
+          >
+          <br />
+          <br />
         </div>
-            <hr>
-            <br>
-            <div class="w3-container w3-card w3-margin-bottom">
-               
-                <a href="https://react-countdown-timer-rocnogu.netlify.app/" target="_blank"> <p>Countdown : React + Netlify</p><img
-                        src="https://www.netlify.com/img/global/meta-image.jpg" alt=""
-                        style="width:112px;height:62px; "></a>
-                <br>
-                <br>
-                <a href="https://github.com/rocnogu/REACT-countdown-timer " target="_blank"><i class="fa fa-github">
-                    Git Countdown Code  </i></a>
-            <br>
-            <br>
+        <hr />
+        <br />
+        <div class="w3-container w3-card w3-margin-bottom">
+          <a
+            href="https://react-countdown-timer-rocnogu.netlify.app/"
+            target="_blank"
+          >
+            <p>Countdown : React + Netlify</p>
+            <img
+              src="https://www.netlify.com/img/global/meta-image.jpg"
+              alt=""
+              style="width: 112px; height: 62px"
+          /></a>
+          <br />
+          <br />
+          <a
+            href="https://github.com/rocnogu/REACT-countdown-timer "
+            target="_blank"
+            ><i class="fa fa-github"> Git Countdown Code </i></a
+          >
+          <br />
+          <br />
         </div>
-            <hr>
-            <br>
+        <hr />
+        <br />
+        <div class="w3-container w3-card w3-margin-bottom">
+          <a href="https://wats-my-ip-rocnogu.netlify.app/" target="_blank">
+            <p>Geolocation API : React + Netlify</p>
+            <img
+              src="https://www.netlify.com/img/global/meta-image.jpg"
+              alt=""
+              style="width: 112px; height: 62px"
+          /></a>
+          <br />
+          <br />
+          <a href="https://github.com/rocnogu/REACT-whats-my-ip" target="_blank"
+            ><i class="fa fa-github"> Git Geolocation Code </i></a
+          >
+          <br />
+          <br />
         </div>
-
-        <!-- End Page Container -->
+        <hr />
+        <br />
+      </div>
+      <!-- End Page Container -->
     </div>
-
-</body>
-
+  </body>
 </html>
